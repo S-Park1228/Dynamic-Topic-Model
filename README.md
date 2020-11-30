@@ -49,7 +49,7 @@ make
 sudo sh -c 'echo "dicdir=/usr/local/lib/mecab/dic/mecab-ko-dic" > /usr/local/etc/mecabrc'
 sudo make install
 
-- Install Chrome
+< Install Chrome >
 wget https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 mv chromedriver /usr/bin/chromedriver
