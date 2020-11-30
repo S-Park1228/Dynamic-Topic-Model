@@ -10,7 +10,7 @@ It was written to capture issues in Korean news data through Dynamic Topic Model
 - I used the news regarding the BIKINDS trade category to test whether the model could have succeeded in capturing U.S>-China trade dispute in March 2018.
 - Period: Sep. 2017 ~ Mar. 2018
 - Data: Trade category news from the major Korean publishing companies.
-- # of obs: 8215
+- the number of obs: 8215
 
 # Remarks
 - It is desirable for users to collect news data by a certain news category to make fully use of this model.
