@@ -25,11 +25,11 @@ It was written to capture issues in Korean news data through Dynamic Topic Model
 
 set -e
 
-- install Korean font
+< install Korean font >
 sudo mkdir -p /usr/share/fonts/truetype/malgun
 sudo cp /home/ec2-user/SageMaker/malgun.ttf /usr/share/fonts/truetype/malgun/
 
-- Install mecab-ko
+< Install mecab-ko >
 wget https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.1.tar.gz
 tar zxfv mecab-0.996-ko-0.9.1.tar.gz
 cd mecab-0.996-ko-0.9.1
@@ -38,7 +38,7 @@ make
 make check
 sudo make install
 
-- Install mecab-ko-dic
+< Install mecab-ko-dic >
 wget https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-1.6.1-20140814.tar.gz
 tar zxfv mecab-ko-dic-1.6.1-20140814.tar.gz
 cd mecab-ko-dic-1.6.1-20140814
