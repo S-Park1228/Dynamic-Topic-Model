@@ -20,7 +20,7 @@ It was written to capture issues in Korean news data through Dynamic Topic Model
 - I used Jupyter Notebook conda_python3
 - AWS Lifecycle configurations: I used Amazon web services to implement this project. So please refer to AWS Lifecycle configurations as follows.
 
-# AWS Lifecycle configurations
+# AWS Lifecycle configurations for users who want to replicate it in AWS
 #!/bin/bash
 
 set -e
